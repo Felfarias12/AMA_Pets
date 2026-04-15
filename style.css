@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
     background: #f4f7fb;
     color: #333;
@@ -57,7 +56,6 @@ button:hover {
 .contenedor-centrado{
     display: flex;
     justify-content: center; 
-    flex-direction: column;
     align-items: center;
     height: 100vh;
 
@@ -65,4 +63,27 @@ button:hover {
 
 .redirecciones{
     margin-right: 20px
+}
+
+.imagen_logo{
+    width: 200px;
+    border-radius: 10px;
+    border-color: black;
+    border: 2px solid;
+
+}
+
+.tarjeta {
+    background-color: white;
+    width: 750px;
+    height: 500px;
+    text-align: center;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
 }
