@@ -53,3 +53,16 @@ button:hover {
     font-weight: bold;
     color: #4CAF50;
 }
+
+.contenedor-centrado{
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.redirecciones{
+    margin-right: 20px
+}
