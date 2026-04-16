@@ -1,38 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     background: #f4f7fb;
     color: #333;
 }
 
-header {
-    background: #4CAF50;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-.container {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    text-align: center;
-}
-
 h1 {
     margin-bottom: 10px;
+    color: #2d6f2d;
 }
 
 p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6;
 }
 
 button {
-    margin-top: 20px;
-    padding: 12px 20px;
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
     border: none;
     background: #4CAF50;
     color: white;
@@ -46,68 +37,81 @@ button:hover {
     background: #45a049;
 }
 
-.extra {
-    margin-top: 20px;
-    display: none;
-    font-weight: bold;
-    color: #4CAF50;
-}
-
-.contenedor-centrado{
+.contenedor-centrado {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
-    height: 100vh;
-
+    min-height: 100vh;
+    padding: 20px;
 }
 
-.redirecciones{
-    margin-right: 20px
+.redirecciones {
+    display: inline-block;
+    margin: 0 10px;
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
-.imagen_logo{
+.redirecciones:hover {
+    color: #2d6f2d;
+}
+
+.imagen_logo {
     width: 200px;
     border-radius: 10px;
-    border-color: black;
-    border: 2px solid;
-
+    border: 2px solid #333;
+    margin: 20px 0;
 }
 
 .tarjeta {
-    background-color: white;
-    width: 750px;
-    height: 500px;
-    text-align: center;
+    background: white;
+    width: 100%;
+    max-width: 500px;
     padding: 40px 30px;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 40px;
+/* Formulario */
+.formulario-contacto {
+    width: 100%;
+    margin: 20px 0;
 }
 
-h1 {
-    margin-bottom: 20px;
-}
-
-input, textarea {
-    width: 300px;
-    padding: 5px;
-}
-
-button {
-    padding: 8px 15px;
-    cursor: pointer;
-}
-
-#respuesta {
+.formulario-contacto label {
+    display: block;
     margin-top: 15px;
+    margin-bottom: 5px;
     font-weight: bold;
+    color: #2d6f2d;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    resize: vertical;
+}
+
+.formulario-contacto input:focus,
+.formulario-contacto textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .tarjeta {
+        padding: 20px 15px;
+    }
+    
+    .formulario-contacto {
+        width: 100%;
+    }
 }

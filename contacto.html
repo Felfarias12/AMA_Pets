@@ -2,29 +2,38 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Contacto - AMA Pets</title>
-    <link rel="stylesheet" href="contacto.css">
 </head>
 <body>
+    <div class="contenedor-centrado">
+        <div class="tarjeta">
+            <h1>Contacto</h1>
+            <p style="color: #666; margin-bottom: 25px;">Cuéntanos cómo podemos ayudarte</p>
 
-    <h1>Contacto AMA Pets</h1>
+            <form id="formContacto" class="formulario-contacto">
+                <label>Nombre:</label>
+                <input type="text" id="nombre" placeholder="Tu nombre" required>
 
-    <form id="formContacto">
-        <label>Nombre:</label><br>
-        <input type="text" id="nombre"><br><br>
+                <label>Correo:</label>
+                <input type="email" id="email" placeholder="Tu email" required>
 
-        <label>Correo:</label><br>
-        <input type="email" id="email"><br><br>
+                <label>Mensaje:</label>
+                <textarea id="mensaje" placeholder="Tu mensaje" rows="5" required></textarea>
 
-        <label>Mensaje:</label><br>
-        <textarea id="mensaje"></textarea><br><br>
+                <button type="submit">Enviar</button>
+            </form>
 
-        <button type="submit">Enviar</button>
-    </form>
+            <p id="respuesta" style="margin-top: 20px;"></p>
 
-    <p id="respuesta"></p>
+            <div style="margin-top: 25px; border-top: 1px solid #eee; padding-top: 20px;">
+                <a href="inicio.html" class="redirecciones">Inicio</a>
+                <a href="nosotros.html" class="redirecciones">Nosotros</a>
+            </div>
+        </div>
+    </div>
 
-    <script src="contacto.js"></script>
-
+    <script src="java.js"></script>
 </body>
 </html>
