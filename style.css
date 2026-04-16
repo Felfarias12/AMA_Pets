@@ -59,8 +59,7 @@ button:hover {
     background-color: #000000;
     width: auto;
     margin-right: auto;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 10px 20px; 
 }
 
 
@@ -86,6 +85,7 @@ button:hover {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .centrado{
