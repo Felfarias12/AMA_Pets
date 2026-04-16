@@ -55,9 +55,10 @@ button:hover {
 }
 
 .menu {
-    margin-top: 20px;
-    background-color: #2d6f2d;
+    margin-top: 0px;
+    background-color: #000000;
     width: auto;
+    margin-right: auto;
     padding: 10px 20px;
     border-radius: 5px;
 }
