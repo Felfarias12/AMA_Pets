@@ -1,13 +1,30 @@
-<!Doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contacto</title>
+    <title>Contacto - AMA Pets</title>
+    <link rel="stylesheet" href="contacto.css">
 </head>
 <body>
-    <h1>Contacto</h1>
-    <p>contactanos si tienes alguna pregunta.</p>
+
+    <h1>Contacto AMA Pets</h1>
+
+    <form id="formContacto">
+        <label>Nombre:</label><br>
+        <input type="text" id="nombre"><br><br>
+
+        <label>Correo:</label><br>
+        <input type="email" id="email"><br><br>
+
+        <label>Mensaje:</label><br>
+        <textarea id="mensaje"></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <p id="respuesta"></p>
+
+    <script src="contacto.js"></script>
 
 </body>
 </html>
