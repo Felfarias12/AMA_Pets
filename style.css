@@ -73,7 +73,9 @@ button:hover {
     padding: 40px 30px;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
     text-align: center;
+    justify-content: center;
 }
 .tarjeta2 {
     background: white;
