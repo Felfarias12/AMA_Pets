@@ -49,10 +49,20 @@ button:hover {
     display: inline-block;
     margin: 0 10px;
     color: #4CAF50;
-    text-decoration: none;
+    text-decoration: none;    
     font-weight: bold;
     transition: 0.3s;
 }
+
+.menu {
+    margin-top: 20px;
+    background-color: #2d6f2d;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
 
 .redirecciones:hover {
     color: #2d6f2d;
