@@ -74,6 +74,31 @@ button:hover {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
+.intro-contacto {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.respuesta {
+    margin-top: 20px;
+    min-height: 22px;
+    font-weight: bold;
+}
+
+.respuesta.ok {
+    color: #2e7d32;
+}
+
+.respuesta.error {
+    color: #c62828;
+}
+
+.nav-contacto {
+    margin-top: 25px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
 /* Formulario */
 .formulario-contacto {
     width: 100%;
