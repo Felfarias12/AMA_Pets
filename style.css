@@ -49,10 +49,20 @@ button:hover {
     display: inline-block;
     margin: 0 10px;
     color: #4CAF50;
-    text-decoration: none;
+    text-decoration: none;    
     font-weight: bold;
     transition: 0.3s;
 }
+
+.menu {
+    margin-top: 0px;
+    background-color: #000000;
+    width: auto;
+    margin-right: auto;
+    padding: 10px 20px; 
+}
+
+
 
 .redirecciones:hover {
     color: #2d6f2d;
@@ -73,9 +83,6 @@ button:hover {
     padding: 40px 30px;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    display: flex;
-    text-align: center;
-    justify-content: center;
 }
 .tarjeta2 {
     background: white;
