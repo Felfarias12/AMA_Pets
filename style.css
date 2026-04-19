@@ -171,6 +171,15 @@ button:hover {
 }
 
 
+.footer-contenido{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+    padding: 60px 40px;
+    flex-wrap: wrap;
+}
+
 .footer{
     background-color: skyblue;
     color: white;
